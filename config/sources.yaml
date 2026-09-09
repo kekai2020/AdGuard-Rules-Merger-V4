@@ -1,0 +1,147 @@
+# AdGuard Rules Merger V4 — Source configuration
+# Each source is a HostlistsRegistry filter_N.txt (or any DNS-format list).
+
+# ── Global merge settings ──────────────────────────────────────────
+timeout: 60
+max_concurrency: 50
+
+# ── Download settings ─────────────────────────────────────────────
+download:
+  user_agent: "AdGuard-Rules-Merger/4.0"
+  retry_count: 2
+  retry_delay: 1.5
+
+# ── Dedup settings ──────────────────────────────────────────────────
+dedup:
+  strip_www: true              # Treat www.example.com == example.com
+  normalize_case: true         # Always lowercase (already default)
+  normalize_trailing_dot: true # Strip trailing FQDN dot
+
+# ── Quality filter settings ─────────────────────────────────────────
+quality_filter:
+  enabled: true
+  min_domain_length: 4
+  max_domain_length: 253
+  filter_localhost: true
+  filter_ip_rules: false
+
+# ── Aggregation settings ────────────────────────────────────────────
+aggregation:
+  enabled: true
+  min_aggregator_labels: 2
+
+# ── Conflict resolution settings ────────────────────────────────────
+conflict_resolution:
+  enabled: true
+  cascade_subdomains: true
+
+# ── Cache settings (ETag + SHA256, compatible with actions/cache) ──
+cache:
+  enabled: true
+  directory: cache
+  ttl_seconds: 0            # 0 = no time-based expiry
+  max_size_mb: 500
+
+# ── Output settings ────────────────────────────────────────────────
+output:
+  directory: output
+  formats:
+    - adguard
+    - whitelist
+    - hosts
+    - domains
+    - clash
+    - surge
+    - smartdns
+  tiered: true
+  report: true
+
+# ── Rule sources (14 enabled) ──────────────────────────────────────
+sources:
+  # ==================== 广告拦截 ====================
+  - name: "AdGuard DNS filter"
+    url: "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
+    enabled: true
+    category: "ads"
+    reputation: 0.95
+
+  - name: "CHN: AdRules DNS List"
+    url: "https://adguardteam.github.io/HostlistsRegistry/assets/filter_29.txt"
+    enabled: true
+    category: "ads"
+    reputation: 0.85
+
+  - name: "CHN: anti-AD"
+    url: "https://adguardteam.github.io/HostlistsRegistry/assets/filter_21.txt"
+    enabled: true
+    category: "ads"
+    reputation: 0.85
+
+  - name: "1Hosts (Lite)"
+    url: "https://adguardteam.github.io/HostlistsRegistry/assets/filter_24.txt"
+    enabled: true
+    category: "ads"
+    reputation: 0.80
+
+  - name: "OISD Blocklist Small"
+    url: "https://adguardteam.github.io/HostlistsRegistry/assets/filter_5.txt"
+    enabled: true
+    category: "ads"
+    reputation: 0.85
+
+  - name: "HaGeZi's Ultimate Blocklist"
+    url: "https://adguardteam.github.io/HostlistsRegistry/assets/filter_49.txt"
+    enabled: true
+    category: "ads"
+    reputation: 0.80
+
+  # ==================== 隐私 / 跟踪 ====================
+  - name: "Stalkerware Indicators List"
+    url: "https://adguardteam.github.io/HostlistsRegistry/assets/filter_31.txt"
+    enabled: true
+    category: "tracking"
+    reputation: 0.75
+
+  # ==================== 安全威胁 ====================
+  - name: "Phishing URL Blocklist"
+    url: "https://adguardteam.github.io/HostlistsRegistry/assets/filter_30.txt"
+    enabled: true
+    category: "phishing"
+    reputation: 0.80
+
+  - name: "Malicious URL Blocklist"
+    url: "https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt"
+    enabled: true
+    category: "malware"
+    reputation: 0.80
+
+  - name: "HaGeZi's Threat Intelligence Feeds"
+    url: "https://adguardteam.github.io/HostlistsRegistry/assets/filter_44.txt"
+    enabled: true
+    category: "malware"
+    reputation: 0.85
+
+  - name: "Phishing Army"
+    url: "https://adguardteam.github.io/HostlistsRegistry/assets/filter_18.txt"
+    enabled: true
+    category: "phishing"
+    reputation: 0.75
+
+  - name: "Scam Blocklist by DurableNapkin"
+    url: "https://adguardteam.github.io/HostlistsRegistry/assets/filter_10.txt"
+    enabled: true
+    category: "phishing"
+    reputation: 0.70
+
+  - name: "ShadowWhisperer's Malware List"
+    url: "https://adguardteam.github.io/HostlistsRegistry/assets/filter_42.txt"
+    enabled: true
+    category: "malware"
+    reputation: 0.75
+
+  # ==================== 挖矿专项 ====================
+  - name: "NoCoin Filter List"
+    url: "https://adguardteam.github.io/HostlistsRegistry/assets/filter_8.txt"
+    enabled: true
+    category: "mining"
+    reputation: 0.80
