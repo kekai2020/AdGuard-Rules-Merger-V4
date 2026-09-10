@@ -1,58 +1,8 @@
 [
   {
-    "blocked_rule": "||proto2ad.durasite.net^",
-    "blocked_by": "@@||proto2ad.durasite.net^",
-    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
-  },
-  {
     "blocked_rule": "||afi-b.com^",
     "blocked_by": "@@||afi-b.com^",
     "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
-  },
-  {
-    "blocked_rule": "||data.notify.macys.com^",
-    "blocked_by": "@@||data.notify.macys.com^",
-    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
-  },
-  {
-    "blocked_rule": "||data.orders.costco.com^",
-    "blocked_by": "@@||data.orders.costco.com^",
-    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
-  },
-  {
-    "blocked_rule": "||datadoghq-browser-agent.com^",
-    "blocked_by": "@@||datadoghq-browser-agent.com^",
-    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
-  },
-  {
-    "blocked_rule": "||googleadservices.com^",
-    "blocked_by": "@@||googleadservices.com^",
-    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
-  },
-  {
-    "blocked_rule": "||logentries.com^",
-    "blocked_by": "@@||logentries.com^",
-    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
-  },
-  {
-    "blocked_rule": "||omsc.kpn.com^",
-    "blocked_by": "@@||omsc.kpn.com^",
-    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
-  },
-  {
-    "blocked_rule": "||sax.sina.com.cn^",
-    "blocked_by": "@@||sax.sina.com.cn^",
-    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
-  },
-  {
-    "blocked_rule": "||sedge.nfl.com^",
-    "blocked_by": "@@||sedge.nfl.com^",
-    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
-  },
-  {
-    "blocked_rule": "||torimochi.line-apps.com^",
-    "blocked_by": "@@||torimochi.line-apps.com^",
-    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_21.txt"
   },
   {
     "blocked_rule": "||awin1.com^",
@@ -75,6 +25,26 @@
     "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
   },
   {
+    "blocked_rule": "||data.orders.costco.com^",
+    "blocked_by": "@@||data.orders.costco.com^",
+    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
+  },
+  {
+    "blocked_rule": "||datadoghq-browser-agent.com^",
+    "blocked_by": "@@||datadoghq-browser-agent.com^",
+    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
+  },
+  {
+    "blocked_rule": "||proto2ad.durasite.net^",
+    "blocked_by": "@@||proto2ad.durasite.net^",
+    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
+  },
+  {
+    "blocked_rule": "||googleadservices.com^",
+    "blocked_by": "@@||googleadservices.com^",
+    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
+  },
+  {
     "blocked_rule": "||marketing.net.idealo-partner.com^",
     "blocked_by": "@@||marketing.net.idealo-partner.com^",
     "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
@@ -85,6 +55,26 @@
     "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
   },
   {
+    "blocked_rule": "||omsc.kpn.com^",
+    "blocked_by": "@@||omsc.kpn.com^",
+    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
+  },
+  {
+    "blocked_rule": "||torimochi.line-apps.com^",
+    "blocked_by": "@@||torimochi.line-apps.com^",
+    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_21.txt"
+  },
+  {
+    "blocked_rule": "||logentries.com^",
+    "blocked_by": "@@||logentries.com^",
+    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
+  },
+  {
+    "blocked_rule": "||sedge.nfl.com^",
+    "blocked_by": "@@||sedge.nfl.com^",
+    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
+  },
+  {
     "blocked_rule": "||cmp.osano.com^",
     "blocked_by": "@@||cmp.osano.com^",
     "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_21.txt"
@@ -92,6 +82,16 @@
   {
     "blocked_rule": "||data.promo.timhortons.ca^",
     "blocked_by": "@@||data.promo.timhortons.ca^",
+    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
+  },
+  {
+    "blocked_rule": "||data.notify.macys.com^",
+    "blocked_by": "@@||data.notify.macys.com^",
+    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
+  },
+  {
+    "blocked_rule": "||sax.sina.com.cn^",
+    "blocked_by": "@@||sax.sina.com.cn^",
     "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
   },
   {
@@ -120,6 +120,16 @@
     "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
   },
   {
+    "blocked_rule": "||ad.10010.com^",
+    "blocked_by": "@@||ad.10010.com^",
+    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_21.txt"
+  },
+  {
+    "blocked_rule": "||ad.ourgame.com^",
+    "blocked_by": "@@||ad.ourgame.com^",
+    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_29.txt"
+  },
+  {
     "blocked_rule": "||stats.tj.gov.cn^",
     "blocked_by": "@@||tj.gov.cn^",
     "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_49.txt"
@@ -138,15 +148,5 @@
     "blocked_rule": "||ads.privacy.qq.com^",
     "blocked_by": "@@||ads.privacy.qq.com^",
     "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_49.txt"
-  },
-  {
-    "blocked_rule": "||ad.10010.com^",
-    "blocked_by": "@@||ad.10010.com^",
-    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_21.txt"
-  },
-  {
-    "blocked_rule": "||ad.ourgame.com^",
-    "blocked_by": "@@||ad.ourgame.com^",
-    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_29.txt"
   }
 ]
