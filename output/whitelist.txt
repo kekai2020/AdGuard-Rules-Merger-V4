@@ -1,7 +1,7 @@
 ! Title: Whitelist for Merged Rules (V4)
 ! Description: Allow rules separated from main filter
-! Version: 202609101101
-! Total allow rules: 220
+! Version: 202609101612
+! Total allow rules: 221
 !
 @@/\.(gif|jpe?g|png|webp)#(\/?.+)?(\/(ad)s?\/|\/ad-)/
 @@||5471782.fls.doubleclick.net^
@@ -219,6 +219,7 @@
 @@||tube.e.kuaishou.com^
 @@||uland.taobao.com^
 @@||unsubscribe.lhinsights.com^
+@@||used.ca^
 @@||validate.perfdrive.com^
 @@||vcentry2.valuecommerce.ne.jp^
 @@||vcentry3.valuecommerce.ne.jp^

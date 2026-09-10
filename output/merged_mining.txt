@@ -1,21 +1,26 @@
 ! Title: Merged mining filter (V4)
 ! Category: mining
-! Version: 202609101101
-! Rules: 139
+! Version: 202609101612
+! Rules: 173
 !
 ||1q2w3.fun^
 ||ad-miner.com^
+||adminer.com^
 ||aeros01.tk^
 ||aeros02.tk^
 ||aeros11.tk^
 ||aeros12.tk^
+||afminer.com^
+||analytics.blue^
 ||andlache.com^
 ||anybest.pw^
 ||ashgrrwt.click^
+||authedmine.com^
 ||authedmine.eu^
 ||authedwebmine.cz^
 ||autologica.ga^
 ||axoncoho.tk^
+||bablace.com^
 ||baiduccdn1.com^
 ||berateveng.ru^
 ||besocial.online^
@@ -33,16 +38,32 @@
 ||bmcm.ml^
 ||bmcm.pw^
 ||bmnr.pw^
+||bmst.pw^
 ||brominer.com^
+||browsermine.com^
+||candid.zone^
 ||cfcdist.gdn^
 ||clgserv.pro^
 ||cloud-miner.de^
+||cloud-miner.eu^
 ||cloudcdn.gdn^
 ||cloudflane.com^
+||cnhv.co^
+||coin-have.com^
 ||coinblind.com^
+||coinerra.com^
+||coinhiveproxy.com^
+||coinimp.com^
+||coinimp.net^
 ||coinminingonline.com^
+||coinnebula.com^
+||coinpirate.cf^
+||coinpot.co^
 ||coinrail.io^
 ||cryptaloot.pro^
+||crypto-loot.com^
+||crypto-webminer.com^
+||cryptoloot.pro^
 ||dark-utilities.me^
 ||dark-utilities.pw^
 ||dark-utilities.xyz^
@@ -51,6 +72,7 @@
 ||de-nis-ner-mi-5.info^
 ||depttake.ga^
 ||dronml.ml^
+||easyhash.de^
 ||eth-pocket.com^
 ||eth-pocket.de^
 ||eth-pocket.eu^
@@ -59,7 +81,9 @@
 ||ethereum-pocket.de^
 ||ethereum-pocket.eu^
 ||ethtrader.de^
+||eucsoft.com^
 ||f1tbit.com^
+||flare-analytics.com^
 ||flighty.win^
 ||flightzy.date^
 ||flightzy.win^
@@ -69,7 +93,6 @@
 ||g1thub.com^
 ||gasolina.ml^
 ||goldoffer.online^
-||gramombird.com^
 ||gridiogrid.com^
 ||gxbrowser.net^
 ||hhb123.tk^
@@ -84,6 +107,7 @@
 ||jqcdn2.herokuapp.com^
 ||jquery-cdn.download^
 ||jqwww.download^
+||jscoinminer.com^
 ||jshosting.party^
 ||jshosting.win^
 ||jurty.ml^
@@ -97,9 +121,11 @@
 ||minero-proxy-02.now.sh^
 ||minero-proxy-03.now.sh^
 ||minero.pw^
+||minescripts.info^
 ||minexmr.stream^
 ||minr.pw^
 ||monero-miner.com^
+||monerominer.rocks^
 ||money-maker-default.info^
 ||mxcdn1.now.sh^
 ||mxcdn2.now.sh^
@@ -107,19 +133,25 @@
 ||nametraff.com^
 ||nathetsof.com^
 ||nch-software.info^
+||nerohut.com^
 ||niematego.tk^
 ||ninaning.com^
-||nitrokod.com^
 ||npcdn1.now.sh^
 ||nvidia-graphics.top^
+||nvidiacenter.com^
+||offerreality.com^
+||ogrid.org^
 ||okeyletsgo.ml^
 ||panelsave.com^
 ||panger-top.click^
+||party-vqgdyvoycc.now.sh^
+||pearno.com^
 ||pr0gram.org^
 ||proofly.win^
 ||renhertfo.com^
 ||roastedvolt.net^
 ||scaleway.ovh^
+||serie-vostfr.com^
 ||service4refresh.info^
 ||staticsfs.host^
 ||stonecalcom.com^
@@ -130,10 +162,12 @@
 ||sxcdn4.now.sh^
 ||sxcdn5.herokuapp.com^
 ||sxcdn6.now.sh^
+||thewise.com^
+||tulip18.com^
 ||uoldid.ru^
 ||vceilinichego.ru^
-||verifier.live^
 ||videoplayer2.xyz^
+||vkcdnservice.com^
 ||vuryua.ru^
 ||webmine.pro^
 ||webmining.co^
