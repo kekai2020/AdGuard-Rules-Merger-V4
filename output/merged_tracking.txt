@@ -1,6 +1,6 @@
 ! Title: Merged tracking filter (V4)
 ! Category: tracking
-! Version: 202609111059
+! Version: 202609111615
 ! Rules: 493
 !
 ||12d60.appspot.com^
