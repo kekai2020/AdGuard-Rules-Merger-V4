@@ -1,7 +1,7 @@
 ! Title: Whitelist for Merged Rules (V4)
 ! Description: Allow rules separated from main filter
-! Version: 202609102042
-! Total allow rules: 221
+! Version: 202609110405
+! Total allow rules: 222
 !
 @@/\.(gif|jpe?g|png|webp)#(\/?.+)?(\/(ad)s?\/|\/ad-)/
 @@||5471782.fls.doubleclick.net^
@@ -24,6 +24,7 @@
 @@||ad.siemens.com.cn^
 @@||adcdn.pingan.com^
 @@||admin.dable.io^
+@@||ads.finance^
 @@||ads.privacy.qq.com^
 @@||ads.taboola.com^
 @@||ads.tdbank.com^
