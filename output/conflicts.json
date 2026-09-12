@@ -1,10 +1,5 @@
 [
   {
-    "blocked_rule": "||proto2ad.durasite.net^",
-    "blocked_by": "@@||proto2ad.durasite.net^",
-    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
-  },
-  {
     "blocked_rule": "||afi-b.com^",
     "blocked_by": "@@||afi-b.com^",
     "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
@@ -37,6 +32,11 @@
   {
     "blocked_rule": "||datadoghq-browser-agent.com^",
     "blocked_by": "@@||datadoghq-browser-agent.com^",
+    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
+  },
+  {
+    "blocked_rule": "||proto2ad.durasite.net^",
+    "blocked_by": "@@||proto2ad.durasite.net^",
     "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
   },
   {
@@ -90,6 +90,11 @@
     "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
   },
   {
+    "blocked_rule": "||sax.sina.com.cn^",
+    "blocked_by": "@@||sax.sina.com.cn^",
+    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
+  },
+  {
     "blocked_rule": "||data.orders.costco.ca^",
     "blocked_by": "@@||data.orders.costco.ca^",
     "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
@@ -112,11 +117,6 @@
   {
     "blocked_rule": "||statcounter.com^",
     "blocked_by": "@@||statcounter.com^",
-    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
-  },
-  {
-    "blocked_rule": "||sax.sina.com.cn^",
-    "blocked_by": "@@||sax.sina.com.cn^",
     "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
   },
   {
