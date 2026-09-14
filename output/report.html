@@ -110,13 +110,13 @@
         <div class="header">
             <h1>🛡️ AdGuard Rules Merger V4</h1>
             <div class="subtitle">专业规则合并分析报告</div>
-            <div class="meta">生成时间：2026-09-14 12:24:31 | 源：14/14 | 版本：V4.0.0</div>
+            <div class="meta">生成时间：2026-09-14 21:43:55 | 源：14/14 | 版本：V4.0.0</div>
         </div>
 
         <!-- 核心指标 -->
         <div class="stats-grid">
             <div class="stat-card">
-                <div class="value">2,788,168</div>
+                <div class="value">2,788,565</div>
                 <div class="label">Block 规则总数</div>
             </div>
             <div class="stat-card">
@@ -128,7 +128,7 @@
                 <div class="label">综合去重率</div>
             </div>
             <div class="stat-card">
-                <div class="value">52,943</div>
+                <div class="value">52,824</div>
                 <div class="label">向上聚合</div>
             </div>
             <div class="stat-card">
@@ -136,7 +136,7 @@
                 <div class="label">冲突消解</div>
             </div>
             <div class="stat-card">
-                <div class="value">35.2s</div>
+                <div class="value">35.3s</div>
                 <div class="label">总耗时</div>
             </div>
         </div>
@@ -146,22 +146,22 @@
             <h2>📊 优化流水线漏斗</h2>
             <div class="funnel-step">
                 <div class="step-name">原始规则（Raw）</div>
-                <div class="step-count">3,507,399</div>
+                <div class="step-count">3,507,999</div>
                 <div class="step-diff">-</div>
             </div>
             <div class="funnel-step">
                 <div class="step-name">精确去重后</div>
-                <div class="step-count">2,841,490</div>
-                <div class="step-diff">-665,909</div>
+                <div class="step-count">2,841,768</div>
+                <div class="step-diff">-666,231</div>
             </div>
             <div class="funnel-step">
                 <div class="step-name">向上聚合后</div>
-                <div class="step-count">2,788,547</div>
-                <div class="step-diff">-52,943</div>
+                <div class="step-count">2,788,944</div>
+                <div class="step-diff">-52,824</div>
             </div>
             <div class="funnel-step">
                 <div class="step-name">冲突消解后</div>
-                <div class="step-count">2,788,390</div>
+                <div class="step-count">2,788,787</div>
                 <div class="step-diff">-31</div>
             </div>
         </div>
@@ -203,7 +203,7 @@
                         <td><code>||example.com^</code></td>
                         <td><span class="tag tag-green">✅ 支持</span></td>
                         <td>核心输出</td>
-                        <td>2,788,265</td>
+                        <td>2,788,662</td>
                     </tr>
                     <tr>
                         <td>通配符 Block</td>
@@ -270,10 +270,10 @@
             <div class="section">
                 <h2>⚡ 性能指标</h2>
                 <table>
-                    <tr><td>总耗时</td><td><strong>35.2s</strong></td></tr>
+                    <tr><td>总耗时</td><td><strong>35.3s</strong></td></tr>
                     <tr><td>源成功率</td><td>14/14 (100%)</td></tr>
-                    <tr><td>缓存命中</td><td>8/14</td></tr>
-                    <tr><td>精确去重</td><td>665,909</td></tr>
+                    <tr><td>缓存命中</td><td>7/14</td></tr>
+                    <tr><td>精确去重</td><td>666,231</td></tr>
                     <tr><td>模式规则丢弃</td><td>861</td></tr>
                 </table>
             </div>
@@ -316,7 +316,7 @@
                 type: 'pie',
                 radius: ['40%', '70%'],
                 data: [
-                    { value: 2788265, name: '普通域名', itemStyle: { color: '#2a5298' } },
+                    { value: 2788662, name: '普通域名', itemStyle: { color: '#2a5298' } },
                     { value: 3, name: '通配符', itemStyle: { color: '#6ab04c' } },
                     { value: 50, name: '正则', itemStyle: { color: '#f0932b' } },
                     { value: 72, name: 'IP', itemStyle: { color: '#eb4d4b' } },
@@ -327,7 +327,7 @@
 
         // 类别柱状图
         const categoryChart = echarts.init(document.getElementById('categoryChart'));
-        const catData = {"ads": 377224, "malware": 2265703, "phishing": 144529, "tracking": 493, "mining": 219};
+        const catData = {"ads": 385337, "malware": 2257950, "phishing": 144606, "tracking": 493, "mining": 179};
         const catLabels = Object.keys(catData);
         const catValues = Object.values(catData);
         categoryChart.setOption({
@@ -355,11 +355,11 @@
             xAxis: { type: 'value' },
             yAxis: {
                 type: 'category',
-                data: ["za.com", "biz.id", "appspot.com", "framer.app", "vercel.app", "my.id", "ru.com", "run.app", "sa.com", "pages.dev", "r2.dev", "eu.cc", "amazonaws.com", "hl.cn", "firebaseapp.com", "web.app", "wixstudio.com", "cloudfront.net", "weebly.com", "fbcdn.net"],
+                data: ["za.com", "biz.id", "appspot.com", "vercel.app", "framer.app", "my.id", "ru.com", "run.app", "sa.com", "pages.dev", "r2.dev", "eu.cc", "amazonaws.com", "hl.cn", "firebaseapp.com", "web.app", "wixstudio.com", "cloudfront.net", "weebly.com", "fbcdn.net"],
             },
             series: [{
                 type: 'bar',
-                data: [744, 780, 831, 934, 939, 952, 1104, 1145, 1297, 1704, 1772, 1848, 1908, 1957, 1978, 2054, 2256, 2868, 4574, 4644],
+                data: [744, 780, 831, 930, 934, 952, 1104, 1145, 1297, 1697, 1771, 1849, 1909, 1957, 1978, 2054, 2256, 2868, 4576, 4644],
                 itemStyle: { color: '#2a5298' }
             }]
         });
