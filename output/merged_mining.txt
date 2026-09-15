@@ -1,7 +1,7 @@
 ! Title: Merged mining filter (V4)
 ! Category: mining
-! Version: 202609151130
-! Rules: 219
+! Version: 202609151642
+! Rules: 202
 !
 ||1q2w3.fun^
 ||ad-miner.com^
@@ -22,7 +22,6 @@
 ||axoncoho.tk^
 ||bablace.com^
 ||baiduccdn1.com^
-||becanium.com^
 ||berateveng.ru^
 ||besocial.online^
 ||bestcoinsignals.com^
@@ -96,22 +95,15 @@
 ||flightzy.date^
 ||flightzy.win^
 ||formulawire.com^
-||freecontent.date^
 ||freecontent.science^
-||freecontent.stream^
 ||freecontent.win^
 ||g1thub.com^
 ||gasolina.ml^
 ||goldoffer.online^
-||gramombird.com^
 ||gridiogrid.com^
 ||gxbrowser.net^
-||hashing.win^
-||hemnes.win^
 ||hhb123.tk^
 ||hide.ovh^
-||hostcontent.live^
-||hostingcloud.racing^
 ||hostingcloud.trade^
 ||hostingcloud.win^
 ||igrid.org^
@@ -130,7 +122,6 @@
 ||jurty.ml^
 ||laserveradedomaina.com^
 ||ledhenone.com^
-||lightminer.co^
 ||losital.ru^
 ||machieved.com^
 ||mebablo.com^
@@ -173,9 +164,7 @@
 ||pearno.com^
 ||pertholin.com^
 ||pr0gram.org^
-||premiumstats.xyz^
 ||proofly.win^
-||reauthenticator.com^
 ||renhertfo.com^
 ||roastedvolt.net^
 ||rocks.io^
@@ -185,9 +174,6 @@
 ||service4refresh.info^
 ||silimbompom.com^
 ||sparechange.io^
-||srcip.com^
-||srcips.com^
-||statdynamic.com^
 ||staticsfs.host^
 ||stonecalcom.com^
 ||str1kee.com^
@@ -198,8 +184,6 @@
 ||sxcdn4.now.sh^
 ||sxcdn5.herokuapp.com^
 ||sxcdn6.now.sh^
-||thewhizmarketing.com^
-||thewhizproducts.com^
 ||thewise.com^
 ||trustaproiam.de^
 ||trusteverything.de^
@@ -210,7 +194,6 @@
 ||videoplayer2.xyz^
 ||vkcdnservice.com^
 ||vuryua.ru^
-||webassembly.stream^
 ||webmine.cz^
 ||webmine.pro^
 ||webminepool.com^
