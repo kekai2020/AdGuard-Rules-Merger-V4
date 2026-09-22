@@ -1,7 +1,7 @@
 ! Title: Whitelist for Merged Rules (V4)
 ! Description: Allow rules separated from main filter
-! Version: 202609170425
-! Total allow rules: 222
+! Version: 202609221453
+! Total allow rules: 226
 !
 @@/\.(gif|jpe?g|png|webp)#(\/?.+)?(\/(ad)s?\/|\/ad-)/
 @@||5471782.fls.doubleclick.net^
@@ -88,6 +88,7 @@
 @@||data.orders.costco.com^
 @@||data.promo.timhortons.ca^
 @@||datadoghq-browser-agent.com^
+@@||dns.msftncsi.com^
 @@||dogpile.com^
 @@||dxcloud.episerver.net^
 @@||e.customeriomail.com^
@@ -100,6 +101,9 @@
 @@||f-gear.ec-optimizer.com^
 @@||feed.adrelayer.com^
 @@||forum.notebookreview.com^
+@@||fritz.box^
+@@||fritz.local^
+@@||fritz.nas^
 @@||ftp.bmp.ovh^
 @@||future.biz.weibo.com^
 @@||gate.first-id.fr^
