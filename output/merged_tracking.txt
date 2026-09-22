@@ -1,5 +1,0 @@
-! Title: Merged tracking filter (V4)
-! Category: tracking
-! Version: 202609221453
-! Rules: 0
-!
