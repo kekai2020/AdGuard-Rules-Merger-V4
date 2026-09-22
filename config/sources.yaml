@@ -49,11 +49,6 @@ output:
   formats:
     - adguard
     - whitelist
-    - hosts
-    - domains
-    - clash
-    - surge
-    - smartdns
   tiered: true
   report: true
 
