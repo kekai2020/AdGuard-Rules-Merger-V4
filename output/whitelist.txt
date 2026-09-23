@@ -1,7 +1,7 @@
 ! Title: Whitelist for Merged Rules (V4)
 ! Description: Allow rules separated from main filter
-! Version: 202609231114
-! Total allow rules: 226
+! Version: 202609231211
+! Total allow rules: 227
 !
 @@/\.(gif|jpe?g|png|webp)#(\/?.+)?(\/(ad)s?\/|\/ad-)/
 @@||5471782.fls.doubleclick.net^
@@ -206,6 +206,7 @@
 @@||support-beacon.nakanohito.jp^
 @@||support-widget.nakanohito.jp^
 @@||surveymyopinion.researchnow.com^
+@@||swasc.homedepot.com^
 @@||tags.crwdcntrl.net^
 @@||taiga.maven.io^
 @@||thumbnail.thench.net^
