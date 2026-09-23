@@ -1,13 +1,14 @@
 ! Title: Whitelist for Merged Rules (V4)
 ! Description: Allow rules separated from main filter
-! Version: 202609231636
-! Total allow rules: 227
+! Version: 202609232122
+! Total allow rules: 228
 !
 @@/\.(gif|jpe?g|png|webp)#(\/?.+)?(\/(ad)s?\/|\/ad-)/
 @@||5471782.fls.doubleclick.net^
 @@||79423.analytics.edgekey.net^
 @@||a.adwolf.ru^
 @@||a.sellpoint.net^
+@@||aax-fe.amazon.co.jp^
 @@||ac.ebis.ne.jp^
 @@||acs-m.daraz.com.bd^
 @@||acs-m.daraz.pk^
