@@ -1,5 +1,5 @@
 ! Title: Merged mining filter (V4)
 ! Category: mining
-! Version: 202609231211
+! Version: 202609231636
 ! Rules: 0
 !
