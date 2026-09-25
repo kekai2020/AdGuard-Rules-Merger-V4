@@ -85,46 +85,6 @@
     "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
   },
   {
-    "blocked_rule": "||hb.afl.rakuten.co.jp^",
-    "blocked_by": "@@||hb.afl.rakuten.co.jp^",
-    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
-  },
-  {
-    "blocked_rule": "||data.notify.macys.com^",
-    "blocked_by": "@@||data.notify.macys.com^",
-    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
-  },
-  {
-    "blocked_rule": "||data.orders.costco.ca^",
-    "blocked_by": "@@||data.orders.costco.ca^",
-    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
-  },
-  {
-    "blocked_rule": "||omniture.walmart.com^",
-    "blocked_by": "@@||omniture.walmart.com^",
-    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
-  },
-  {
-    "blocked_rule": "||swasc.homedepot.com^",
-    "blocked_by": "@@||swasc.homedepot.com^",
-    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
-  },
-  {
-    "blocked_rule": "||tms.capitalone.com^",
-    "blocked_by": "@@||tms.capitalone.com^",
-    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
-  },
-  {
-    "blocked_rule": "||belgium.wolterskluwer.com^",
-    "blocked_by": "@@||belgium.wolterskluwer.com^",
-    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
-  },
-  {
-    "blocked_rule": "||statcounter.com^",
-    "blocked_by": "@@||statcounter.com^",
-    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
-  },
-  {
     "blocked_rule": "||aax-fe.amazon.co.jp^",
     "blocked_by": "@@||aax-fe.amazon.co.jp^",
     "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_49.txt"
@@ -135,9 +95,19 @@
     "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
   },
   {
+    "blocked_rule": "||data.orders.costco.ca^",
+    "blocked_by": "@@||data.orders.costco.ca^",
+    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
+  },
+  {
     "blocked_rule": "||stats.tj.gov.cn^",
     "blocked_by": "@@||tj.gov.cn^",
     "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_49.txt"
+  },
+  {
+    "blocked_rule": "||swasc.homedepot.com^",
+    "blocked_by": "@@||swasc.homedepot.com^",
+    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
   },
   {
     "blocked_rule": "||api.karte.io^",
@@ -160,6 +130,11 @@
     "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_49.txt"
   },
   {
+    "blocked_rule": "||statcounter.com^",
+    "blocked_by": "@@||statcounter.com^",
+    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
+  },
+  {
     "blocked_rule": "||ad.10010.com^",
     "blocked_by": "@@||ad.10010.com^",
     "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_21.txt"
@@ -168,5 +143,30 @@
     "blocked_rule": "||ad.ourgame.com^",
     "blocked_by": "@@||ad.ourgame.com^",
     "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_29.txt"
+  },
+  {
+    "blocked_rule": "||belgium.wolterskluwer.com^",
+    "blocked_by": "@@||belgium.wolterskluwer.com^",
+    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
+  },
+  {
+    "blocked_rule": "||data.notify.macys.com^",
+    "blocked_by": "@@||data.notify.macys.com^",
+    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
+  },
+  {
+    "blocked_rule": "||omniture.walmart.com^",
+    "blocked_by": "@@||omniture.walmart.com^",
+    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
+  },
+  {
+    "blocked_rule": "||hb.afl.rakuten.co.jp^",
+    "blocked_by": "@@||hb.afl.rakuten.co.jp^",
+    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
+  },
+  {
+    "blocked_rule": "||tms.capitalone.com^",
+    "blocked_by": "@@||tms.capitalone.com^",
+    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
   }
 ]
