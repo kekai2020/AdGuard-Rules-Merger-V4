@@ -125,14 +125,24 @@
     "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
   },
   {
-    "blocked_rule": "||aax-fe.amazon.co.jp^",
-    "blocked_by": "@@||aax-fe.amazon.co.jp^",
-    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_49.txt"
+    "blocked_rule": "||ad.10010.com^",
+    "blocked_by": "@@||ad.10010.com^",
+    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_21.txt"
+  },
+  {
+    "blocked_rule": "||ad.ourgame.com^",
+    "blocked_by": "@@||ad.ourgame.com^",
+    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_29.txt"
   },
   {
     "blocked_rule": "||sax.sina.com.cn^",
     "blocked_by": "@@||sax.sina.com.cn^",
     "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
+  },
+  {
+    "blocked_rule": "||aax-fe.amazon.co.jp^",
+    "blocked_by": "@@||aax-fe.amazon.co.jp^",
+    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_49.txt"
   },
   {
     "blocked_rule": "||stats.tj.gov.cn^",
@@ -158,15 +168,5 @@
     "blocked_rule": "||ads.privacy.qq.com^",
     "blocked_by": "@@||ads.privacy.qq.com^",
     "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_49.txt"
-  },
-  {
-    "blocked_rule": "||ad.10010.com^",
-    "blocked_by": "@@||ad.10010.com^",
-    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_21.txt"
-  },
-  {
-    "blocked_rule": "||ad.ourgame.com^",
-    "blocked_by": "@@||ad.ourgame.com^",
-    "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_29.txt"
   }
 ]
